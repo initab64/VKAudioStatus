@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>VK Last.FM status</title>
+<meta http-equiv="refresh" content="0; url=http://oauth.vkontakte.ru/authorize?client_id=2816931&scope=offline,status&redirect_uri=http://lastfm.initab.ru/process_code.py&display=page&response_type=code">
+</head>
+<body>
+</form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>VK Last.FM status</title>
+</head>
+<body>
+<form action="send_last.html">
+Your Last.FM nickname:
+<input name="last_fm">
+<input type="submit">
+</form>
+<a href="http://vk.com/lastfm_audiostatus">http://vk.com/lastfm_audiostatus</a>
+
+</body>
+</html>

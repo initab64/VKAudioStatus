@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Content-type: text/html"
+echo
+
+last_user=`echo $QUERY_STRING | sed 's/last_fm=//g'`
+#echo $last_user
+
+echo "<html><head><title>VK Last.FM status</title><meta http-equiv=\"refresh\" content=\"0; url=http://oauth.vkontakte.ru/authorize?client_id=2816931&scope=66560&redirect_uri=http://lastfm.initab.ru/process_code.py%3Flastfm_user=${last_user}&display=page&response_type=code\"></head><body></form></body></html>"
+
+#cat send_last_html.txt
